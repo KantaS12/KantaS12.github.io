@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/NN_img.png
 title: "Vacay"
-date: 2015
+date: 2025-03-01
 published: true
 labels:
   - Python
