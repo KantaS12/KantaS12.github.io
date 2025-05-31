@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Linear_Regression_Scratch.png
 title: "Linear Regression From Scratch"
 date: 2025-03-01
 published: true
