@@ -11,9 +11,8 @@ labels:
   - PCA
 summary: "A Python implementation of linear regression without using scikit-learn's built-in regression models. This project demonstrates the fundamental concepts of linear regression through a stock price prediction model for Apple Inc. (AAPL)."
 ---
-<div class="text-center p-4">
-  <img width="200px" src="..img/Linear_Regression_Scratch.png" class="img-thumbnail" >
-</div>
+
+<img class="img-fluid" src="../img/Linear_Regression_Scratch.png">
 
 This project explores the fundamental principles behind linear regression implementation, specifically applied to predicting AAPL stock prices sourced from the Yahoo API. A key focus was on optimizing the model's accuracy. I leveraged Principal Component Analysis (PCA) to efficiently reduce the feature space while retaining crucial information. Furthermore, I incorporated gradient descent with regularization—a vital technique for controlling model complexity by minimizing the cost function and effectively managing the delicate balance between bias and variance.
 
