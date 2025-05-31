@@ -1,39 +1,47 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+image: img/GYMENAI.png
+title: "Gymenai"
+date: 2024-03-15
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Python
+  - Gemini
+  - SQL
+summary: "I made a beginner gym AI agent for my 2025 GEN AI Intensive Captsone Project"
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+  <img src="../img/GYMENAI.png" >
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-Here is some code that illustrates how we read values from the line sensors:
+I developed a foundational AI agent designed as a professional gym helper, showcasing its ability to interact with a SQL database. 
 
+This agent can seamlessly add new user profiles and retrieve stored user goals simply by recognizing a user's name. The creation of this AI Gym Helper Agent has exciting implications for the future of personalized fitness. 
+
+By leveraging natural language interaction with a structured database, it paves the way for more intuitive and accessible fitness tools. Imagine users conversing with the system to log workouts, track progress, and get relevant information, all without ever needing to navigate a complex interface.
+
+Here is some code that illustrates my SQL database for adding exc:
 ```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+"""
+Add Exercise Log: add_exercise_log(workout_id, exercise_id, sets, weight, reps) records the details-
+-of a specific exercise performed during a workout in the exercises table.
+"""
+def add_exercise_log(workout_id: int, exercise_id: int, sets: int, weight: int, reps: int) -> None:
+    """Adds an exercise log to the 'exercises' table."""
+    try:
+        db_conn = sqlite3.connect(db_file)
+        cursor = db_conn.cursor()
+        sql = "INSERT INTO exercises (workout_id, exercise_id, sets, weight, reps) VALUES (?, ?, ?, ?, ?)"
+        cursor.execute(sql, (workout_id, exercise_id, sets, weight, reps))
+        db_conn.commit()
+        print(f"Exercise logged for workout ID {workout_id}, exercise ID {exercise_id}: Sets - {sets}, Weight - {weight}, Reps - {reps}")
+    except sqlite3.Error as e:
+        print(f"Error adding exercise log: {e}")
+    finally:
+        if db_conn:
+            db_conn.close()
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+You can learn more at my Kaggle!(https://www.kaggle.com/code/kantasaito/gymenai).
