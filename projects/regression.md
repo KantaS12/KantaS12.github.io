@@ -12,9 +12,9 @@ labels:
 summary: "A Python implementation of linear regression without using scikit-learn's built-in regression models. This project demonstrates the fundamental concepts of linear regression through a stock price prediction model for Apple Inc. (AAPL)."
 ---
 
-Even though it is important to know how to implement linear regression for different tasks, it is also important to understand the backbone of the implementation. In this project, I used Yahoo API to predict the AAPL stock prices. I used various techniques including PCA which reduces feature space while maintaing the important components. I also used gradient descent with regularization to maintain bias and variation while lowering the overal cost function. 
+This project explores the fundamental principles behind linear regression implementation, specifically applied to predicting AAPL stock prices sourced from the Yahoo API. A key focus was on optimizing the model's accuracy. I leveraged Principal Component Analysis (PCA) to efficiently reduce the feature space while retaining crucial information. Furthermore, I incorporated gradient descent with regularization—a vital technique for controlling model complexity by minimizing the cost function and effectively managing the delicate balance between bias and variance.
 
-It might be easy to understand what linear regression is, it is really hard to make it as accurate as possible which takes a lot of time and evaluation. The goal for this was to learn different techniques to limit bias and variation while performing linear regression. There might not be much evaluation which is an important part of this and could be improved far more than this. However, this project was just for learning experience while using real life stock values.
+While understanding linear regression is straightforward, achieving high predictive accuracy, especially with real-world data like stock prices, demands meticulous effort and extensive evaluation. This project, though a learning exercise, provided practical experience in mitigating bias and variance. Although comprehensive evaluation could significantly enhance the model, the primary objective was to gain hands-on experience with these advanced techniques using real stock market data.
 
 Here is some code that illustrates gradient descent that uses l1 and l2 regularization:
 
