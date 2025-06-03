@@ -4,12 +4,14 @@ type: essay
 title: "TypeScript: My First Types"
 # All dates must be YYYY-MM-DD format!
 date: 2025-06-01
-published: false
+published: true
 labels:
   - TypeScript
   - Reflection
   - ICS314
 ---
+
+<img class="img-fluid" src="../img/typscript.jpeg">
 
 ## TypeScript Easy?
 
