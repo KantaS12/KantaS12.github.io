@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/NN_img.png
-title: "Vacay"
+title: "Neural Network From Scratch"
 date: 2025-03-01
 published: true
 labels:
