@@ -11,7 +11,6 @@
     "profiles": [
       { "network": "github", "username": "KantaS12", "url": "http://github.com/KantaS12" },
       { "network": "linkedin", "username": "Kanta Saito", "url": "http://linkedin.com/in/kanta-saito" },
-      { "network": "twitter", "username": "kanta", "url": "http://twitter.com/changeme" },
       { "network": "instagram", "username": "kantasaitoo", "url": "http://instagram.com/kantasaitoo" }
     ]
   },
@@ -29,7 +28,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub" ]
+      "keywords": [ "MacOS", "WSL2", "Git/GitHub" ]
     }
   ],
   "education": [
@@ -78,7 +77,7 @@
       "title": "5-Day Gen AI Intensive with Google",
       "date": "2015",
       "awarder": "Kaggle",
-      "summary": "Participated in the 5 day intensive and did a captsone project. More information is in projects."
+      "summary": "Participated in the 5 day intensive and did a captsone project. More information is in the projects tab"
     }
   ],
   "references": [
