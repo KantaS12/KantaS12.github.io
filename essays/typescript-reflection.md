@@ -15,7 +15,8 @@ labels:
 
 ## TypeScript Easy?
 
-After doing around 150 coding practices on TypeScript, I am happy to say that I am pretty good at it. Not at the language itself but the actual structure of my code too. I took a class that required Java like 2 years ago and never touched it again. Doing TypeScript, it reminded me of what Java's syntax and structure was like. However, something that I noticed that was different was the difference between "let" and "var." I also noticed that we used a lot of "const" variables. It is much different than Python and took a little bit to get used to the syntax. Overall, it wasn't so bad.
+After tackling about 150 coding practices in TypeScript, I'm really happy to say I'm getting pretty good at it. It's not just the language itself, but also the actual structure of my code. I took a Java class about two years ago and honestly never touched it again, but working with TypeScript definitely reminded me of Java's syntax and structure. One thing I noticed that was different, though, was the distinction between "let" and "var." I also found myself using "const" variables a lot. It's a big shift from Python, which I was more used to, so it took a little while to get comfortable with the syntax. But overall, it wasn't too bad.
+
 
 ```
 
@@ -27,11 +28,13 @@ hello = "Hello"
 
 ```
 
+
 ## Is TypeScript a Good Programming Language?
 
-TypeScript in my opinion is a good programming language, especially from a software engineering perspective. As a beginner, it was much easier to get into this language than languages like C. There also have types that you can set your objects to which is convenient and also to make sure there are no errors being raised up.  
+In my opinion, TypeScript is a good programming language, especially from a software engineering perspective. As a beginner, it was much easier to get into than languages like C. Plus, it has types you can set for your objects, which is super convenient and helps prevent errors from popping up.
 
-Two types that were helpful was the "any" and also the "unknown" type. 
+Two types that I found particularly helpful were "any" and "unknown." They give you flexibility when you need it:
+
 
 ```
 
@@ -43,7 +46,9 @@ unknownVar = "anything"; //No error
 
 ```
 
-A practice WOD that I found useful was finding if a string is unique or not. It was something that we can use in a real life setting. It's like Leetcode style coding which is really helpful in interviews for tech companies. It also helped me understand structure of the code and also new things like Maps.  
+A practice "WOD" (Workout Of the Day) that I found really useful was figuring out if a string is unique. It felt like something you could actually use in a real-life scenario. It's similar to LeetCode-style coding, which is great for tech interviews. This particular exercise also helped me understand code structure better and introduced me to new concepts like Maps.
+
+Here's the code examples from that WOD:
 
 ```
 
@@ -68,4 +73,4 @@ console.log(isUnique('abcdea')); //false
  
 ## Conclusion
 
-Overall, TypeScript is a language that requires not that much time to learn and also it is something that I would want to be good at. It was enjoyable to learn and was stress free. I think doing the WODs will greatly make me a good software engineer since it requires me to use my critical thinking skills. 
+Overall, TypeScript is a language that doesn't take an excessive amount of time to learn, and it's definitely something I want to get really good at. It was an enjoyable and stress-free learning experience. I think continuing with these WODs will greatly help me become a better software engineer, as they really push me to use my critical thinking skills.
