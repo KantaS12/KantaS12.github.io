@@ -11,7 +11,7 @@ labels:
   - ICS314
 ---
 
-<img class="img-fluid" src="../img/MLOPS.jpg">
+<img class="img-fluid" src="../img/MLOPS.jpeg">
 
 ## What Do I Think About Software Engineering?
 
