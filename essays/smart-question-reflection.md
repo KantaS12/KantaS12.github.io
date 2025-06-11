@@ -11,7 +11,26 @@ labels:
   - StackOverflow
 ---
 
+<img src="../img/stackoverflow.jpeg">
+
+## Introduction
+
+Communication is one the most important software engineering skills to develop, and asking questions the "smart way" is one of the most important commmunication skill for a software engineer. 
+
 ## What Are Smart Questions?
+
+According to Eric Raymond, there are some guidelines for effective interaction with the open source community. In this case, we will be diving into StackOverflow. 
+
+These are some rules that he mentioned:
+
+1. Do your homework: Before asking, do research by searching online to solve the problem.
+2. Choose the Right Forum: Select the appropriate platform
+3. Be Clear and Specific: Make precise and informative subject headers, etc.
+4. Be Informative: Provide all necessary details about your issue.
+5. Interpret Answers: Understand how you can recieve and apply the solutions.
+6. Handle Rudeness: Learn how to filter out unhelpful responses.
+
+Here is an Example of a Smart Question:
 
 ```
 Q:
