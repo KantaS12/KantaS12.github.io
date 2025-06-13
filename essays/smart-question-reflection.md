@@ -4,7 +4,7 @@ type: essay
 title: "Smart Questions, Why So Important?"
 # All dates must be YYYY-MM-DD format!
 date: 2025-06-10
-published: false
+published: true
 labels:
   - Questions
   - ICS 314
