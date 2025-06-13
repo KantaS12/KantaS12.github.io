@@ -15,13 +15,11 @@ labels:
 
 ## Introduction
 
-Communication is one the most important software engineering skills to develop, and asking questions the "smart way" is one of the most
-important commmunication skill for a software engineer. 
+Communication is one of the most important software engineering skills to develop, and asking questions the "smart way" is one of the most important communication skills for a software engineer.
 
-A "smart" question isnʻt just about being articulate; itʻs about providing the necessary context, demonstrating prior effort, and also
-pinpointing the core issue in a way that helps others to provide a precise solution.
+A "smart" question isn't just about being articulate; it's about providing the necessary context, demonstrating prior effort, and pinpointing the core issue in a way that helps others provide a precise solution.
 
-According to Eric Raymond, there are some guidelines for effective interaction with the open source community. In this case, we will be diving into StackOverflow. 
+According to Eric Raymond, there are some guidelines for effective interaction with the open source community. In this case, we will be diving into Stack Overflow.
 
 These are some rules that he mentioned:
 
@@ -35,7 +33,7 @@ These are some rules that he mentioned:
 
 ## The Role of Smart Questions for Software Engineers
 
-For smart questions for software engineers, asking smart questions is an important strategy that underpins efficiency, collaboration, and continuous learning. In this case we will diving in why a question can be considered "smart."
+For software engineers, asking smart questions is an important strategy that underpins efficiency, collaboration, and continuous learning. In this case, we will delve into why a question can be considered "smart."
 
 Here is an Example of a Smart Question:
 
@@ -59,7 +57,7 @@ C2 averaged 9624 cycles, 3.455µs
 
 ```
 
-This user clearly states his objective: "transfer a 32KiB buffer between two cores (C1 and C2) as fast as possible." Then the user follows with a observation from a "simple benchmark," including timings and cycle counts for both cores. This gives a clarification of what is being observed and what the questioner wants to achieve.
+This user clearly states their objective: "transfer a 32KiB buffer between two cores (C1 and C2) as fast as possible." The user then follows with an observation from a "simple benchmark," including timings and cycle counts for both cores. This clarifies what is being observed and what the questioner wants to achieve.
 
 ```
 Target Specifications
@@ -69,7 +67,7 @@ It has 48KiB L1d cache, 4 cores, each with 2 threads.
 The target OS is Ubuntu 24.04.2 LTS.
 ```
 
-The question also provides environmental details: "TigerLake 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz," "48KiB L1d cache,zʻ "4 cores, each with 2 threads," and "Ubuntu 24.04.2 LTS." This is good to anyone who is trying to diagnose a performance issue. 
+The question also provides environmental details: "TigerLake 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz," "48KiB L1d cache," "4 cores, each with 2 threads," and "Ubuntu 24.04.2 LTS." This information is valuable for anyone attempting to diagnose a performance issue.
 
 ```
 Code
@@ -82,9 +80,9 @@ Q: Did you try other prefetch distances?
 A: Yes. All 'reasonable' prefetch distances result in the same performance, unreasonably short or long prefetch distances see worse performance.
 ```
 
-They also demonstrated reproducible code which is the most powerful part of the smart question which shows that itʻs informative. It also makes its easier for users to provide a solution since itʻs closer to the problem. 
+They also demonstrated reproducible code, which is arguably the most powerful aspect of a smart question. This makes it highly informative and easier for others to provide precise solutions, as it allows them to directly observe and debug the problem.
 
-This user provided so much detail and posted their question in the right forum. They were also clear and specific on their objective and informative. The is also a Q and A part which can handle rudeness and give an interpretation on how you want your answers.
+This user provided extensive detail and posted their question in the appropriate forum. They were also clear and specific about their objective. Furthermore, the inclusion of a Q&A section demonstrates prior research, addresses anticipated follow-up questions, and helps guide the scope of desired responses.
 
 
 Here is the link to [Smart Question](https://stackoverflow.com/questions/79646975/what-is-an-explanation-for-the-performance-characteristics-of-clwb-when-sharing).
@@ -96,14 +94,22 @@ Here is the link to [Smart Question](https://stackoverflow.com/questions/7964697
 Q:
 What should be the next step
 
-Hi guys I hope you doing well ..I am really felling disappointed I have taken pytorch,tensorflow.datasience ,As well as Ibm Ai certificate
-.After almost year of working Now I don't Know what is the next step or course recommend me to take it I.hope to get intuition from any expert here my goal to be an Ai engineer
-..thank you guys
-
 .. .Hi guys I hope you doing well ..I am really felling disappointed I have taken pytorch,tensorflow.datasience ,As well as Ibm Ai certificate
 .After almost year of working Now I don't Know what is the next step or course recommend me to take it I.hope to get intuition from any expert here
 ..thank you guys
-
 ```
 
+In contrast, this question exemplifies a not-so-smart question.
+
+First, the problem is extremely vague and could likely be resolved through a simple online search or by consulting common resources.
+
+Second, it is posted in the wrong forum, as Stack Overflow is primarily intended for more technical, code-specific questions.
+
+Third, the emotional tone of the question, resembling a general expression of disappointment, risks attracting unhelpful or even rude comments directed at the user rather than focusing on a technical solution.
+
 Here is the link to [Not So Smart](https://stackoverflow.com/questions/79661426/what-should-be-the-next-step).
+
+
+##Insights Gained
+
+This exercise gave me a better insight into what makes a good question and what doesn't. I also learned that to respect everyone's time, we should provide as much information and be as precise about our objective as possible.
