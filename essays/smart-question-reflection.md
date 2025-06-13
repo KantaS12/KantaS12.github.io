@@ -39,7 +39,7 @@ These are some rules that he mentioned:
 
 ## The Role of Smart Questions for Software Engineers
 
-
+ 
 For software engineers, asking smart questions is an important strategy that underpins efficiency, collaboration, and continuous learning. In this case, we will delve into why a question can be considered "smart."
 
 
