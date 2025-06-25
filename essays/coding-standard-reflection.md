@@ -15,8 +15,6 @@ labels:
 
 ## What is a Coding Standard?
 
-Here's the fixed grammar:
-
 Coding standards are a big part of software engineering because they're like the sentence structure of your code. Beyond just formatting consistency, which is an important aspect for readability, comprehensive coding standards also include:
 
 ```
