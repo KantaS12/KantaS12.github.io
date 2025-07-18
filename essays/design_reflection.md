@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Design Patterns: City Building!"
+title: "Design Patterns: Just Like Food Making!"
 # All dates must be YYYY-MM-DD format!
 date: 2025-07-18
 published: true
