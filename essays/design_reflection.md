@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Design Patterns: City Building!"
 # All dates must be YYYY-MM-DD format!
-date: 2025-07-018
+date: 2025-07-18
 published: true
 labels:
   - Design Patterns
