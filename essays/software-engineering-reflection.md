@@ -1,12 +1,12 @@
 ---
 layout: essay
 type: essay
-title: "My Reflection on UI: I like it"
+title: "Software Engineering: More than just Web Developing"
 # All dates must be YYYY-MM-DD format!
-date: 2025-07-01
+date: 2025-07-25
 published: true
 labels:
-  - UI Frameworks
+  - Software Engineering
   - Reflection
   - ICS314
 ---
