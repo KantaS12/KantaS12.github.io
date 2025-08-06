@@ -11,7 +11,7 @@ labels:
   - ICS314
 ---
 
-<img class="img-fluid" src="../img/AI_shark.jpeg">
+<img class="img-fluid" src="../img/AI_Shark.jpeg">
 
 ## Introduction
 
