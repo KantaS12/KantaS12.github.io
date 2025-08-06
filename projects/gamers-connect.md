@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/GYMENAI.png
+image: img/landingPage.png
 title: "Gamers Connect"
 date: 2025-08-05
 published: true
