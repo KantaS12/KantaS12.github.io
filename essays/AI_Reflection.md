@@ -84,7 +84,7 @@ The primary AI tool I have used in general and in ICS 314 is Google Gemini.
             setUnreadCount(fetchedNotifications.filter(n => !n.isRead).length);
     "
 
-13. Quality assurance e.g. “What’s wrong with this code <code here>” or “Fix the ESLint errors in <code here>”
+13. Quality assurance
 
     I found Gemini to be very useful for this. A prompt like “Fix the ESLint errors in the following code: const yes = 1; (space)"          would often provide an immediate and correct solution.
 
