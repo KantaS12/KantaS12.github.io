@@ -11,6 +11,8 @@ labels:
   - ICS314
 ---
 
+<img class="img-fluid" src="../img/AI_shark.jpeg">
+
 ## Introduction
 
 Artificial intelligence (AI) is transforming many fields, and education is no exception. In software engineering, AI serves as a powerful tool to streamline development processes and enhance learning. Its relevance is growing as AI-powered tools are now integrated into many professional and academic environments. This integration provides students with new ways to understand complex concepts, write code more efficiently, and debug problems.
