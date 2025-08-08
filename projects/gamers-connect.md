@@ -15,7 +15,7 @@ summary: "A full-stack web app that helps UH students find and connect with loca
 ---
 
 
-  <img src="../img/landingPage.png" width="500" heigh="500">
+  <img src="../img/landingPage.png" width="800" heigh="800">
 
 ## Project Overview
 Gamers Connect is a full-stack platform built for students at the University of Hawai‘i to discover and connect with local gamers. Users can create personalized profiles, find teammates based on games and playstyle, organize gaming sessions, and browse nearby tournaments or meetups.
