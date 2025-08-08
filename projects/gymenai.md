@@ -44,4 +44,4 @@ def add_exercise_log(workout_id: int, exercise_id: int, sets: int, weight: int, 
             db_conn.close()
 ```
 
-You can learn more at my Kaggle!(https://www.kaggle.com/code/kantasaito/gymenai).
+[You can learn more at my Kaggle!](https://www.kaggle.com/code/kantasaito/gymenai).
