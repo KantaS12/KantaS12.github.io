@@ -18,19 +18,29 @@ summary: "A full-stack web app that helps UH students find and connect with loca
   <img src="../img/landingPage.png" width="800" heigh="800">
 
 ## Project Overview
+
 Gamers Connect is a full-stack platform built for students at the University of Hawai‘i to discover and connect with local gamers. Users can create personalized profiles, find teammates based on games and playstyle, organize gaming sessions, and browse nearby tournaments or meetups.
 
 The app features intelligent player matching, session scheduling, and a clean, responsive UI.
 
 ## Tech Stack
-Frontend: Next.js 14 (TypeScript)
-Backend: Prisma ORM + PostgreSQL
-Auth: JWT
+
+Frontend: Next.js 14 (TypeScript)<br>
+Backend: Prisma ORM + PostgreSQL<br>
+Auth: JWT<br>
 Deployment: Vercel
+
+## Key Features
+
+🎯 Smart Player Matching – Suggests teammates based on games, playstyle, and platform preferences.<br>
+📅 Session Scheduling – Organize matches, invite friends, and set game times.<br>
+📍 Event Discovery – Browse local tournaments, LAN parties, and online events.<br>
+🖥 Responsive Design – Works seamlessly on desktop and mobile.
 
 ## Github Repo
 
-https://github.com/gamers-connect/gamers-connect
+[View on GitHub](https://github.com/gamers-connect/gamers-connect)
 
+## Live Demo
 
-You can check it out on our website!(https://uh-gamers-connect.vercel.app/).
+[Open Deployed Site](https://uh-gamers-connect.vercel.app/)
