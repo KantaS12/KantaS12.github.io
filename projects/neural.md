@@ -68,4 +68,4 @@ def back_prop(X, Y, W1, W2, W3, W4, W5, Z1, Z2, Z3, Z4, Z5, A1, A2, A3, A4, A5):
     return dW1, db1, dW2, db2, dW3, db3, dW4, db4, dW5, db5
 ```
 
-You can learn more in my GitHub!(https://github.com/KantaS12/NN_Scratch).
+[You can learn more in my GitHub!](https://github.com/KantaS12/NN_Scratch).
