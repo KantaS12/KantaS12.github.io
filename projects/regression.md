@@ -31,4 +31,4 @@ for _ in range(iterations):
     b -= LR * db
 ```
 
-You can learn more in my GitHub!(https://github.com/KantaS12/self_regression_model/blob/main/README.md).
+[You can learn more in my GitHub](https://github.com/KantaS12/self_regression_model/blob/main/README.md).
